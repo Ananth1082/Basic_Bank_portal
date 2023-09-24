@@ -1,0 +1,62 @@
+body {
+  background-color:rgb(208, 193, 193);
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0px;
+}
+header{
+  background-color: black;
+  height: 100px;
+  color: white;
+  margin-top: 0%;
+}
+
+h2.heading {
+  font-size: 50px;
+  margin-left: 40%;
+  position:absolute;
+}
+.slogan {
+  font-size: 20px;
+  text-align: left;
+  background-color: rgb(33, 33, 33);
+  height: 50px;
+  padding: 0px;
+  overflow: hidden;
+  color: white;
+}
+#movetxt {
+  position: relative;
+
+  animation: moving 10s infinite;
+}
+@keyframes moving {
+  from {left: 0%;}
+  to {left:90%;}
+}
+.container{
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-left: 35%;
+  margin-top: 10%;
+  width: 30%;
+  padding: 25px 25px;
+  height: 100%;
+}
+
+input.acc_no {
+  width:70%;
+}
+
+input.amount {
+  width:70%;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin-left:30 ;
+
+}

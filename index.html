@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC Bank- World's best bank</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <header>
+    <h2 class="heading">ABC Bank</h2>
+    
+  </header>
+  <div class="slogan"><p id="movetxt">You can trust us</p></div>
+  
+  <div class="container">
+    <h1>Bank Portal</h1>
+    <input type="text" class="acc_no"placeholder="Enter your Bank Account Number">
+    <h3>Select your action:</h3>
+    <form>
+      <input type="radio" name="action" onclick="choice=1">
+      <label>Credit</label><br>
+      <input type="radio" name="action" onclick="choice=2">
+      <label>Debit</label><br>
+      <input type="radio" name="action" onclick="choice=3">
+      <label>Check Balance</label><br>
+      <br>
+      <input type="number" class="amount" placeholder="Enter amount"> 
+    </form>
+    <h2 class="message"></h2><br>
+    <button onclick="bank()">Submit</button>
+  </div>
+  <script src="Scripts.js"></script>  
+</body>
+</html>
